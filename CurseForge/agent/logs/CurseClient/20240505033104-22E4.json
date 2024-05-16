@@ -1,0 +1,1453 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 8932,
+  "Arguments": [
+    "/tmp/.mount_CurseFktQDS3/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=63910",
+    "--to-port=63930",
+    "--pid=8780",
+    "--appDataPath=/home/pascal/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2024-05-05T07:31:03.6021145Z",
+  "Version": "1.250.2.17763",
+  "BuildDate": "2000-01-03T14:52:06Z",
+  "Start": "2024-05-05T03:31:04.1746058-04:00",
+  "Log": [
+{
+  "timestamp": "2024-05-05T03:31:04.1662491-04:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2024-05-05T03:31:04.1709994-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.250.2.17763"
+},
+{
+  "timestamp": "2024-05-05T03:31:04.1723171-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=63910,--to-port=63930,--pid=8780,--appDataPath=/home/pascal/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2024-05-05T03:31:04.174405-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 8780"
+},
+{
+  "timestamp": "2024-05-05T03:31:04.8004815-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/pascal/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2024-05-05T03:31:04.885257-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 63910"
+},
+{
+  "timestamp": "2024-05-05T03:31:05.1834444-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2024-05-05T03:31:05.3686956-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2024-05-05T03:31:05.370417-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2024-05-05T03:31:05.370577-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "UpdateShowGameLog True"
+},
+{
+  "timestamp": "2024-05-05T03:31:05.3713644-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2024-05-05T03:31:05.3752829-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2024-05-05T03:31:05.4560807-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:31:05.4745479-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2024-05-05T03:31:05.9019075-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2024-05-05T03:31:05.9027088-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2024-05-05T03:31:05.9616298-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Loaded 26 games from the server"
+},
+{
+  "timestamp": "2024-05-05T03:31:05.9618666-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/pascal/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2024-05-05T03:31:05.9845847-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "80.00"
+  }
+},
+{
+  "timestamp": "2024-05-05T03:31:06.0062051-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2024-05-05T03:31:06.0076174-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2024-05-05T03:31:06.0277469-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.028244-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.0288338-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.0601987-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.0603297-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.2032922-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 1 instances"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.212715-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/pascal/Documents/curseforge/minecraft/Instances/Project Ozone 2: Reloaded/"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.2281851-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initialized game Project Ozone 2: Reloaded instance"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.2285188-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2024-05-05T03:31:06.2304207-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.2352361-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 26 games..."
+},
+{
+  "timestamp": "2024-05-05T03:31:06.2435374-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 1 detected game instances. Operation took 13 ms"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.2450049-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.2457576-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-05T03:31:06.2459618-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Beginning initialization of InstanceManager"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.2465803-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Setting file watcher on instance directory /home/pascal/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.2512076-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: Project Ozone 2: Reloaded"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.2973309-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "InstanceManager initialized."
+},
+{
+  "timestamp": "2024-05-05T03:31:06.2984434-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.2984506-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.2987988-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.30082-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Resolving Minecraft instances list from /home/pascal/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.3015718-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/pascal/Documents/curseforge/minecraft/Instances/Project Ozone 2: Reloaded"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.3044665-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.3101015-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.3101365-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-05T03:31:06.5554938-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[ModLoaderDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "267.00"
+  }
+},
+{
+  "timestamp": "2024-05-05T03:31:06.5870667-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.6166607-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.6511172-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "48.00"
+  }
+},
+{
+  "timestamp": "2024-05-05T03:31:06.8098694-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.8099169-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-05T03:31:06.9264618-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-05T03:31:06.9265019-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-05T03:31:07.0462963-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-05T03:31:07.0463297-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-05T03:31:10.4462767-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "InstallTask abd7c5e6-fa58-4238-ade5-7ac085a7df4f LaunchMinecraftTask started..."
+},
+{
+  "timestamp": "2024-05-05T03:31:10.4474127-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validate required Minecraft version prior to launch"
+},
+{
+  "timestamp": "2024-05-05T03:31:10.4516628-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.7.10"
+},
+{
+  "timestamp": "2024-05-05T03:31:10.4545531-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-05T03:31:10.4545621-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-05T03:31:10.4547406-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Minecraft version 1.7.10 already exists... Skipping installation."
+},
+{
+  "timestamp": "2024-05-05T03:31:10.4551437-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Installing Forge mod loader forge-10.13.4.1614."
+},
+{
+  "timestamp": "2024-05-05T03:31:10.4788512-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2024-05-05T03:31:10.5652165-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-05-05T03:31:11.4677331-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 902ms"
+},
+{
+  "timestamp": "2024-05-05T03:31:11.4706412-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Launching Minecraft instance: Project Ozone 2: Reloaded"
+},
+{
+  "timestamp": "2024-05-05T03:31:11.4798706-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Setting minecraft version.json asset index"
+},
+{
+  "timestamp": "2024-05-05T03:31:11.4801114-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/pascal/Documents/curseforge/minecraft/Install/versions/forge-10.13.4.1614/forge-10.13.4.1614.json"
+},
+{
+  "timestamp": "2024-05-05T03:31:11.4805009-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Setting Minecraft version.json jar location"
+},
+{
+  "timestamp": "2024-05-05T03:31:11.4805794-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/pascal/Documents/curseforge/minecraft/Install/versions/forge-10.13.4.1614/forge-10.13.4.1614.json"
+},
+{
+  "timestamp": "2024-05-05T03:31:11.4811602-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/pascal/Documents/curseforge/minecraft/Install/versions/forge-10.13.4.1614/forge-10.13.4.1614.json"
+},
+{
+  "timestamp": "2024-05-05T03:31:11.4879354-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Reading launcher_profiles.json from /home/pascal/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2024-05-05T03:31:11.4946442-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Launcher args determined as: -Xmx11680m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/pascal/Documents/curseforge/minecraft/Install/libraries\""
+},
+{
+  "timestamp": "2024-05-05T03:31:11.4953386-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Inserting pre-launch profile (version format 3)",
+  "data": {
+    "name": "Project Ozone 2: Reloaded",
+    "gameDir": "/home/pascal/Documents/curseforge/minecraft/Instances/Project Ozone 2: Reloaded/",
+    "lastVersionId": "forge-10.13.4.1614",
+    "javaArgs": "-Xmx11680m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/pascal/Documents/curseforge/minecraft/Install/libraries\"",
+    "type": "custom",
+    "created": "2024-05-05T07:31:11.4940698Z",
+    "lastUsed": "2024-05-05T07:31:11.4940909Z"
+  }
+},
+{
+  "timestamp": "2024-05-05T03:31:11.4965095-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Saving launcher_profiles.json"
+},
+{
+  "timestamp": "2024-05-05T03:31:11.4988916-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Writing profile to: /home/pascal/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2024-05-05T03:31:11.6043502-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Process start '/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher' args determined: --workDir \"/home/pascal/Documents/curseforge/minecraft/Install\""
+},
+{
+  "timestamp": "2024-05-05T03:31:11.6044035-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Starting Process..."
+},
+{
+  "timestamp": "2024-05-05T03:31:12.4497102-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "InstallTask abd7c5e6-fa58-4238-ade5-7ac085a7df4f LaunchMinecraftTask completed"
+},
+{
+  "timestamp": "2024-05-05T03:31:16.6100136-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-05-05T03:31:17.4484121-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 838ms"
+},
+{
+  "timestamp": "2024-05-05T03:32:22.6405763-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:32:22.6783592-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:32:22.6912552-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:32:22.7243387-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:32:22.7898158-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:32:22.819806-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:32:56.5984145-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:32:56.6534115-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:33:27.5773259-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:33:27.624956-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:33:58.8541407-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:33:58.8985788-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:34:15.7998168-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:34:15.8291419-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:34:29.9759787-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:34:30.0197611-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:35:00.9526694-04:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:35:01.003025-04:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:35:34.7228058-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:35:34.7817091-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:36:06.0462111-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:36:06.0907967-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:36:37.3760679-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:36:37.4221615-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:37:08.7092206-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:37:08.7533884-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:37:40.0424626-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:37:40.0972412-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:38:13.8329625-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:38:13.8957019-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:43:16.3229488-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:43:16.370982-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:48:17.3666356-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:48:17.4253417-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:53:18.2824847-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:53:18.3373594-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:58:19.5260303-04:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:58:19.5873086-04:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:58:19.6008317-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:58:19.6545386-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:58:19.6857319-04:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:58:19.7347238-04:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:58:53.5990269-04:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:58:53.6266097-04:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:59:25.1501755-04:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:59:25.2037298-04:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:59:25.3260369-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:59:25.3713097-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:59:27.21824-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:59:27.2633629-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T03:59:56.6759698-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T03:59:56.7065523-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:00:27.6394034-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:00:27.6865075-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:00:58.9297024-04:00",
+  "level": "Info",
+  "thread": 41,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:00:58.9835706-04:00",
+  "level": "Info",
+  "thread": 41,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:01:32.7296952-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:01:32.7887136-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:02:04.0558565-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:02:04.1090582-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:02:35.0228817-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:02:35.0691114-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:03:06.3160075-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:03:06.3732808-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:03:38.0791343-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:03:38.1330407-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:04:11.8528909-04:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:04:11.9108893-04:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:04:43.1924085-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:04:43.2379857-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:05:15.139935-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:05:15.1895571-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:10:16.0394037-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:10:16.0876716-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:15:17.2826198-04:00",
+  "level": "Info",
+  "thread": 59,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:15:17.3308241-04:00",
+  "level": "Info",
+  "thread": 59,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:20:21.1761029-04:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:20:21.2200531-04:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:25:22.0893854-04:00",
+  "level": "Info",
+  "thread": 70,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:25:22.1353309-04:00",
+  "level": "Info",
+  "thread": 70,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:27:19.7948449-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:27:19.8681659-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:30:23.0689457-04:00",
+  "level": "Info",
+  "thread": 75,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:30:23.1225316-04:00",
+  "level": "Info",
+  "thread": 75,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:31:05.8372216-04:00",
+  "level": "Info",
+  "thread": 73,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-05-05T04:31:05.8395877-04:00",
+  "level": "Info",
+  "thread": 73,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-05-05T04:31:06.163498-04:00",
+  "level": "Info",
+  "thread": 75,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-05-05T04:35:24.3549887-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:35:24.3987564-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:40:25.6258585-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:40:25.6622703-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:40:25.6726454-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:40:25.7223292-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:40:25.7830307-04:00",
+  "level": "Info",
+  "thread": 83,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:40:25.8407866-04:00",
+  "level": "Info",
+  "thread": 83,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:40:59.6325599-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:40:59.6771253-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:41:30.9560858-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:41:31.0184328-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:42:02.3023263-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:42:02.358025-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:42:33.6291064-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:42:33.6755035-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:43:04.9654596-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:43:05.011452-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:43:38.7570651-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:43:38.8006103-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:44:10.1020296-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:44:10.1465375-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:44:41.4224478-04:00",
+  "level": "Info",
+  "thread": 83,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:44:41.4759873-04:00",
+  "level": "Info",
+  "thread": 83,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:45:12.765546-04:00",
+  "level": "Info",
+  "thread": 83,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:45:12.8194029-04:00",
+  "level": "Info",
+  "thread": 83,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:45:44.0957885-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:45:44.1386614-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:46:17.8955122-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:46:17.9290381-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-05T04:51:19.1520939-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-05T04:51:19.2069168-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+}
+]}

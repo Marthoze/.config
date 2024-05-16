@@ -1,0 +1,12 @@
+2024/05/14-19:59:01.037 6867 Reusing MANIFEST /home/pascal/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/05/14-19:59:01.038 6867 Recovering log #29
+2024/05/14-19:59:01.038 6867 Reusing old log /home/pascal/.config/discord/Local Storage/leveldb/000029.log 
+2024/05/14-20:01:39.951 6869 Level-0 table #35: started
+2024/05/14-20:01:39.977 6869 Level-0 table #35: 774396 bytes OK
+2024/05/14-20:01:39.985 6869 Delete type=0 #29
+2024/05/14-20:02:59.872 6869 Level-0 table #37: started
+2024/05/14-20:02:59.902 6869 Level-0 table #37: 2322905 bytes OK
+2024/05/14-20:02:59.910 6869 Delete type=0 #34
+2024/05/14-20:40:03.361 6869 Level-0 table #39: started
+2024/05/14-20:40:03.375 6869 Level-0 table #39: 19068 bytes OK
+2024/05/14-20:40:03.382 6869 Delete type=0 #36

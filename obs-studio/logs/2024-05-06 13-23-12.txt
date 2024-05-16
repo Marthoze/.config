@@ -1,0 +1,128 @@
+13:23:12.141: Using EGL/X11
+13:23:12.141: CPU Name: 12th Gen Intel(R) Core(TM) i7-12700K
+13:23:12.141: CPU Speed: 1510.576MHz
+13:23:12.141: Physical Cores: 12, Logical Cores: 20
+13:23:12.141: Physical Memory: 64113MB Total, 46438MB Free
+13:23:12.141: Kernel Version: Linux 6.8.9-arch1-1
+13:23:12.141: Distribution: "Arch Linux" Unknown
+13:23:12.141: Desktop Environment: bspwm
+13:23:12.141: Session Type: x11
+13:23:12.141: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+13:23:12.142: Qt Version: 6.7.0 (runtime), 6.7.0 (compiled)
+13:23:12.142: Portable mode: false
+13:23:12.166: OBS 30.1.2-1 (linux)
+13:23:12.166: ---------------------------------
+13:23:12.166: ---------------------------------
+13:23:12.166: audio settings reset:
+13:23:12.166: 	samples per sec: 48000
+13:23:12.166: 	speakers:        2
+13:23:12.166: 	max buffering:   960 milliseconds
+13:23:12.166: 	buffering type:  dynamically increasing
+13:23:12.168: ---------------------------------
+13:23:12.168: Initializing OpenGL...
+13:23:12.194: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3080/PCIe/SSE2
+13:23:12.194: OpenGL loaded successfully, version 3.3.0 NVIDIA 550.78, shading language 3.30 NVIDIA via Cg compiler
+13:23:12.287: ---------------------------------
+13:23:12.287: video settings reset:
+13:23:12.287: 	base resolution:   1920x1080
+13:23:12.287: 	output resolution: 1280x720
+13:23:12.287: 	downscale filter:  Bicubic
+13:23:12.287: 	fps:               30/1
+13:23:12.287: 	format:            NV12
+13:23:12.287: 	YUV mode:          Rec. 709/Partial
+13:23:12.287: NV12 texture support enabled
+13:23:12.287: P010 texture support not available
+13:23:12.288: Audio monitoring device:
+13:23:12.288: 	name: Default
+13:23:12.288: 	id: default
+13:23:12.288: ---------------------------------
+13:23:12.293: Failed to load 'en-US' text for module: 'decklink-captions.so'
+13:23:12.298: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+13:23:12.303: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+13:23:12.303: Failed to initialize module 'decklink.so'
+13:23:12.392: [pipewire] No captures available
+13:23:12.405: v4l2loopback not installed, virtual camera disabled
+13:23:12.445: NVENC supported
+13:23:12.445: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+13:23:12.445: FFmpeg VAAPI H264 encoding not supported
+13:23:12.445: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+13:23:12.445: FFmpeg VAAPI AV1 encoding not supported
+13:23:12.445: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+13:23:12.445: FFmpeg VAAPI HEVC encoding not supported
+13:23:12.503: ---------------------------------
+13:23:12.503:   Loaded Modules:
+13:23:12.503:     text-freetype2.so
+13:23:12.503:     rtmp-services.so
+13:23:12.503:     obs-x264.so
+13:23:12.503:     obs-webrtc.so
+13:23:12.503:     obs-vst.so
+13:23:12.503:     obs-transitions.so
+13:23:12.503:     obs-qsv11.so
+13:23:12.503:     obs-outputs.so
+13:23:12.503:     obs-libfdk.so
+13:23:12.503:     obs-filters.so
+13:23:12.503:     obs-ffmpeg.so
+13:23:12.503:     linux-v4l2.so
+13:23:12.503:     linux-pulseaudio.so
+13:23:12.503:     linux-pipewire.so
+13:23:12.503:     linux-jack.so
+13:23:12.503:     linux-capture.so
+13:23:12.503:     linux-alsa.so
+13:23:12.503:     image-source.so
+13:23:12.503:     frontend-tools.so
+13:23:12.503:     decklink-output-ui.so
+13:23:12.503:     decklink-captions.so
+13:23:12.503: ---------------------------------
+13:23:12.503: ==== Startup complete ===============================================
+13:23:12.506: No scene file found, creating default scene
+13:23:12.530: All scene data cleared
+13:23:12.530: ------------------------------------------------
+13:23:12.534: pulse-input: Server name: 'pulseaudio 17.0'
+13:23:12.534: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+13:23:12.534: pulse-input: Started recording from 'alsa_output.usb-Generic_USB_Audio-00.HiFi__Speaker__sink.monitor' (default)
+13:23:12.534: pulse-input: Server name: 'pulseaudio 17.0'
+13:23:12.534: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+13:23:12.534: pulse-input: Started recording from 'alsa_input.usb-Generic_USB_Audio-00.HiFi__Mic1__source' (default)
+13:23:12.535: Switched to scene 'Scene'
+13:23:12.535: Failed to glob scene collections
+13:23:13.105: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+13:23:13.105: 
+13:23:17.790: [rtmp-services plugin] Successfully updated file 'services.json' (version 251)
+13:23:17.790: [rtmp-services plugin] Successfully updated package (version 251)
+13:23:25.981: 
+13:23:25.981: ==== Auto-config wizard testing commencing ======
+
+13:23:30.399: QFormLayout::takeAt: Invalid index 0
+13:23:37.427: Number of remaining views: 1
+13:23:37.427: ---------------------------------
+13:23:37.427: video settings reset:
+13:23:37.427: 	base resolution:   2560x1440
+13:23:37.427: 	output resolution: 1920x1080
+13:23:37.427: 	downscale filter:  Bicubic
+13:23:37.427: 	fps:               60/1
+13:23:37.427: 	format:            NV12
+13:23:37.427: 	YUV mode:          Rec. 709/Partial
+13:23:37.427: NV12 texture support enabled
+13:23:37.427: P010 texture support not available
+13:23:37.429: 
+13:23:37.429: ==== Auto-config wizard testing stopping ========
+
+13:24:00.075: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+13:24:00.075: 	title: ncis episode gibbs bomb - Google Search - Vivaldi
+13:24:00.075: 	class: vivaldi-stable
+13:24:00.075: 
+13:24:00.075: xcb_composite_name_window_pixmap failed
+13:24:00.077: User added source 'Window Capture (Xcomposite)' (xcomposite_input) to scene 'Scene'
+13:24:00.094: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+13:24:00.094: 	title: ./build/CurseForge-1.250.2-17763.AppImage
+13:24:00.094: 	class: org.wezfurlong.wezterm
+13:24:00.094: 
+13:24:00.094: xcb_composite_name_window_pixmap failed
+13:24:09.161: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+13:24:09.161: 	title: Minecraft 1.7.10
+13:24:09.161: 	class: Minecraft 1.7.10
+13:24:09.161: 
+13:24:09.161: xcb_composite_name_window_pixmap failed
+13:24:18.976: User Removed source 'Window Capture (Xcomposite)' (xcomposite_input) from scene 'Scene'
+13:24:24.836: xshm-input: Geometry 2560x1440 @ 2560,0
+13:24:24.838: User added source 'Screen Capture (XSHM)' (xshm_input) to scene 'Scene'

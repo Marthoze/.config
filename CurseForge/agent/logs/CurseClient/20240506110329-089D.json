@@ -1,0 +1,634 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 2205,
+  "Arguments": [
+    "/tmp/.mount_CurseFvuNNF3/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=63857",
+    "--to-port=63877",
+    "--pid=2030",
+    "--appDataPath=/home/pascal/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2024-05-06T15:03:29.1053057Z",
+  "Version": "1.250.2.17763",
+  "BuildDate": "2000-01-03T14:52:06Z",
+  "Start": "2024-05-06T11:03:29.8039907-04:00",
+  "Log": [
+{
+  "timestamp": "2024-05-06T11:03:29.7955105-04:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2024-05-06T11:03:29.8003556-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.250.2.17763"
+},
+{
+  "timestamp": "2024-05-06T11:03:29.8017095-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=63857,--to-port=63877,--pid=2030,--appDataPath=/home/pascal/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2024-05-06T11:03:29.8038003-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 2030"
+},
+{
+  "timestamp": "2024-05-06T11:03:30.4400978-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/pascal/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2024-05-06T11:03:30.5224821-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 63857"
+},
+{
+  "timestamp": "2024-05-06T11:03:30.6800535-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2024-05-06T11:03:30.8560999-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2024-05-06T11:03:30.8576381-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2024-05-06T11:03:30.8577682-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "UpdateShowGameLog True"
+},
+{
+  "timestamp": "2024-05-06T11:03:30.8588396-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2024-05-06T11:03:30.8633833-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2024-05-06T11:03:30.9456572-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-06T11:03:30.9611296-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.4220578-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.4228645-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.48656-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Loaded 26 games from the server"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.4867513-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/pascal/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.5072521-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "83.00"
+  }
+},
+{
+  "timestamp": "2024-05-06T11:03:31.5286453-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2024-05-06T11:03:31.5303943-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2024-05-06T11:03:31.5521704-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.5525964-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.5531302-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.5825624-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.5828521-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.7201283-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 1 instances"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.7306173-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/pascal/Documents/curseforge/minecraft/Instances/Project Ozone 2: Reloaded/"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.743019-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initialized game Project Ozone 2: Reloaded instance"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.7433437-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2024-05-06T11:03:31.7452107-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.7500742-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 26 games..."
+},
+{
+  "timestamp": "2024-05-06T11:03:31.7590331-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 1 detected game instances. Operation took 13 ms"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.7602765-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.7608747-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-06T11:03:31.7610593-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Beginning initialization of InstanceManager"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.7616408-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Setting file watcher on instance directory /home/pascal/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.7664676-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: Project Ozone 2: Reloaded"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.8121824-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "InstanceManager initialized."
+},
+{
+  "timestamp": "2024-05-06T11:03:31.8132721-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.8132974-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.8137008-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.8165045-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Resolving Minecraft instances list from /home/pascal/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.8173414-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/pascal/Documents/curseforge/minecraft/Instances/Project Ozone 2: Reloaded"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.8202457-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.8259397-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-06T11:03:31.8260291-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-06T11:03:32.1060903-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[ModLoaderDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "301.00"
+  }
+},
+{
+  "timestamp": "2024-05-06T11:03:32.1351109-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-05-06T11:03:32.1389447-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2024-05-06T11:03:32.2068175-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "53.00"
+  }
+},
+{
+  "timestamp": "2024-05-06T11:03:32.3294018-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-06T11:03:32.3294872-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-06T11:03:32.4511594-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-06T11:03:32.4511949-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-06T11:03:32.6136226-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-06T11:03:32.6136606-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-06T11:03:36.2035091-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "InstallTask 09a1b6b2-c052-4313-a0aa-05014eb666c5 LaunchMinecraftTask started..."
+},
+{
+  "timestamp": "2024-05-06T11:03:36.2046688-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Validate required Minecraft version prior to launch"
+},
+{
+  "timestamp": "2024-05-06T11:03:36.2093062-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.7.10"
+},
+{
+  "timestamp": "2024-05-06T11:03:36.2121511-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-06T11:03:36.2121617-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-06T11:03:36.2123407-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Minecraft version 1.7.10 already exists... Skipping installation."
+},
+{
+  "timestamp": "2024-05-06T11:03:36.2127729-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Installing Forge mod loader forge-10.13.4.1614."
+},
+{
+  "timestamp": "2024-05-06T11:03:36.2367367-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2024-05-06T11:03:36.3248351-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-05-06T11:03:37.5288127-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1203ms"
+},
+{
+  "timestamp": "2024-05-06T11:03:37.5321118-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Launching Minecraft instance: Project Ozone 2: Reloaded"
+},
+{
+  "timestamp": "2024-05-06T11:03:37.5426971-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Setting minecraft version.json asset index"
+},
+{
+  "timestamp": "2024-05-06T11:03:37.5429182-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/pascal/Documents/curseforge/minecraft/Install/versions/forge-10.13.4.1614/forge-10.13.4.1614.json"
+},
+{
+  "timestamp": "2024-05-06T11:03:37.5432511-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Setting Minecraft version.json jar location"
+},
+{
+  "timestamp": "2024-05-06T11:03:37.5433148-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/pascal/Documents/curseforge/minecraft/Install/versions/forge-10.13.4.1614/forge-10.13.4.1614.json"
+},
+{
+  "timestamp": "2024-05-06T11:03:37.5437469-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/pascal/Documents/curseforge/minecraft/Install/versions/forge-10.13.4.1614/forge-10.13.4.1614.json"
+},
+{
+  "timestamp": "2024-05-06T11:03:37.5502651-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Reading launcher_profiles.json from /home/pascal/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2024-05-06T11:03:37.5581401-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Launcher args determined as: -Xmx11680m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/pascal/Documents/curseforge/minecraft/Install/libraries\""
+},
+{
+  "timestamp": "2024-05-06T11:03:37.5588227-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Inserting pre-launch profile (version format 3)",
+  "data": {
+    "name": "Project Ozone 2: Reloaded",
+    "gameDir": "/home/pascal/Documents/curseforge/minecraft/Instances/Project Ozone 2: Reloaded/",
+    "lastVersionId": "forge-10.13.4.1614",
+    "javaArgs": "-Xmx11680m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/pascal/Documents/curseforge/minecraft/Install/libraries\"",
+    "type": "custom",
+    "created": "2024-05-06T15:03:37.557582Z",
+    "lastUsed": "2024-05-06T15:03:37.5575976Z"
+  }
+},
+{
+  "timestamp": "2024-05-06T11:03:37.559987-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Saving launcher_profiles.json"
+},
+{
+  "timestamp": "2024-05-06T11:03:37.5627301-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Writing profile to: /home/pascal/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2024-05-06T11:03:37.6683062-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Process start '/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher' args determined: --workDir \"/home/pascal/Documents/curseforge/minecraft/Install\""
+},
+{
+  "timestamp": "2024-05-06T11:03:37.6683511-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Starting Process..."
+},
+{
+  "timestamp": "2024-05-06T11:03:38.2075167-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "InstallTask 09a1b6b2-c052-4313-a0aa-05014eb666c5 LaunchMinecraftTask completed"
+},
+{
+  "timestamp": "2024-05-06T11:03:42.6870106-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-05-06T11:03:43.8135312-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1126ms"
+},
+{
+  "timestamp": "2024-05-06T11:04:52.0794212-04:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2024-05-06T11:04:52.1043548-04:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Logging worker finished"
+}
+]}

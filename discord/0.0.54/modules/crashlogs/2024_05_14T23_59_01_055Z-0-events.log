@@ -1,0 +1,15 @@
+2024-05-14T23:59:01.061Z 0: 
+
+----------------------------------------------
+2024-05-14T23:59:01.074Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/pascal/.config/discord/0.0.54/modules
+2024-05-14T23:59:01.086Z 2: ✅ webContents.created web1 "index.html"
+2024-05-14T23:59:01.099Z 3: ✅ window.created win1 "discord"
+2024-05-14T23:59:01.224Z 4: ✅ webContents.did-finish-load web1
+2024-05-14T23:59:03.324Z 5: ✅ webContents.created web2 ""
+2024-05-14T23:59:03.336Z 6: ✅ window.created win2 "Discord"
+2024-05-14T23:59:04.108Z 7: ✅ webContents.did-finish-load web2
+2024-05-14T23:59:04.207Z 8: window.close win1
+2024-05-14T23:59:04.215Z 9: webContents.destroyed web1
+2024-05-14T23:59:04.221Z 10: window.closed win1
+2024-05-15T01:26:59.620Z 11: window.close win2
+2024-05-15T01:27:12.159Z 12: before-quit

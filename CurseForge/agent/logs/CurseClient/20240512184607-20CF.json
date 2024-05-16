@@ -1,0 +1,7281 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 8399,
+  "Arguments": [
+    "/tmp/.mount_CurseFsUAdSP/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=57111",
+    "--to-port=57131",
+    "--pid=8248",
+    "--appDataPath=/home/pascal/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2024-05-12T22:46:06.5715418Z",
+  "Version": "1.250.2.17763",
+  "BuildDate": "2000-01-03T14:52:06Z",
+  "Start": "2024-05-12T18:46:07.0967764-04:00",
+  "Log": [
+{
+  "timestamp": "2024-05-12T18:46:07.0862474-04:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2024-05-12T18:46:07.0910986-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.250.2.17763"
+},
+{
+  "timestamp": "2024-05-12T18:46:07.092709-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=57111,--to-port=57131,--pid=8248,--appDataPath=/home/pascal/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2024-05-12T18:46:07.0951855-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 8248"
+},
+{
+  "timestamp": "2024-05-12T18:46:07.6410226-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/pascal/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2024-05-12T18:46:07.7178436-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 57111"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.1466978-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.2962688-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.2976911-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.2978219-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "UpdateShowGameLog True"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.2984468-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.301862-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2024-05-12T18:46:08.3744714-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.3882331-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.7046644-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.7053433-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.7342465-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Loaded 26 games from the server"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.7343882-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/pascal/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.7518796-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "45.00"
+  }
+},
+{
+  "timestamp": "2024-05-12T18:46:08.7695483-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2024-05-12T18:46:08.770812-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2024-05-12T18:46:08.7864305-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.7868239-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.7873291-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.8129625-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.8130629-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.9288801-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 1 instances"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.9375879-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/pascal/Documents/curseforge/minecraft/Instances/Project Ozone 2: Reloaded/"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.9481738-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initialized game Project Ozone 2: Reloaded instance"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.9484571-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2024-05-12T18:46:08.9500733-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.9545713-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 26 games..."
+},
+{
+  "timestamp": "2024-05-12T18:46:08.962405-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 1 detected game instances. Operation took 12 ms"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.9634776-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.964031-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-12T18:46:08.964204-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Beginning initialization of InstanceManager"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.9647261-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Setting file watcher on instance directory /home/pascal/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2024-05-12T18:46:08.9692517-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: Project Ozone 2: Reloaded"
+},
+{
+  "timestamp": "2024-05-12T18:46:09.008659-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "InstanceManager initialized."
+},
+{
+  "timestamp": "2024-05-12T18:46:09.0095502-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2024-05-12T18:46:09.0095638-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2024-05-12T18:46:09.0098668-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2024-05-12T18:46:09.0113907-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Resolving Minecraft instances list from /home/pascal/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2024-05-12T18:46:09.0118706-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/pascal/Documents/curseforge/minecraft/Instances/Project Ozone 2: Reloaded"
+},
+{
+  "timestamp": "2024-05-12T18:46:09.0145273-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-05-12T18:46:09.0207438-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-12T18:46:09.020769-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-12T18:46:09.1150607-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[ModLoaderDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "141.00"
+  }
+},
+{
+  "timestamp": "2024-05-12T18:46:09.1349662-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-05-12T18:46:09.1422632-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "15.00"
+  }
+},
+{
+  "timestamp": "2024-05-12T18:46:09.1520484-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2024-05-12T18:46:09.5192501-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-12T18:46:09.5192713-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-12T18:46:09.618696-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-12T18:46:09.6187268-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-12T18:46:09.7336765-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-12T18:46:09.7336931-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-12T18:46:11.0918366-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "InstallTask 63939947-5a25-4f68-afd7-36fefd6b8f91 LaunchMinecraftTask started..."
+},
+{
+  "timestamp": "2024-05-12T18:46:11.0928879-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Validate required Minecraft version prior to launch"
+},
+{
+  "timestamp": "2024-05-12T18:46:11.096687-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.7.10"
+},
+{
+  "timestamp": "2024-05-12T18:46:11.0995927-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-05-12T18:46:11.0995993-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-05-12T18:46:11.0997775-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Minecraft version 1.7.10 already exists... Skipping installation."
+},
+{
+  "timestamp": "2024-05-12T18:46:11.1002067-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Installing Forge mod loader forge-10.13.4.1614."
+},
+{
+  "timestamp": "2024-05-12T18:46:11.1208967-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2024-05-12T18:46:11.1913113-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-05-12T18:46:12.1030973-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 911ms"
+},
+{
+  "timestamp": "2024-05-12T18:46:12.1057486-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Launching Minecraft instance: Project Ozone 2: Reloaded"
+},
+{
+  "timestamp": "2024-05-12T18:46:12.1143543-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Setting minecraft version.json asset index"
+},
+{
+  "timestamp": "2024-05-12T18:46:12.1145628-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/pascal/Documents/curseforge/minecraft/Install/versions/forge-10.13.4.1614/forge-10.13.4.1614.json"
+},
+{
+  "timestamp": "2024-05-12T18:46:12.1148731-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Setting Minecraft version.json jar location"
+},
+{
+  "timestamp": "2024-05-12T18:46:12.1149391-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/pascal/Documents/curseforge/minecraft/Install/versions/forge-10.13.4.1614/forge-10.13.4.1614.json"
+},
+{
+  "timestamp": "2024-05-12T18:46:12.1153719-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/pascal/Documents/curseforge/minecraft/Install/versions/forge-10.13.4.1614/forge-10.13.4.1614.json"
+},
+{
+  "timestamp": "2024-05-12T18:46:12.1215353-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Reading launcher_profiles.json from /home/pascal/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2024-05-12T18:46:12.1275361-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Launcher args determined as: -Xmx11680m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/pascal/Documents/curseforge/minecraft/Install/libraries\""
+},
+{
+  "timestamp": "2024-05-12T18:46:12.1281325-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Inserting pre-launch profile (version format 3)",
+  "data": {
+    "name": "Project Ozone 2: Reloaded",
+    "gameDir": "/home/pascal/Documents/curseforge/minecraft/Instances/Project Ozone 2: Reloaded/",
+    "lastVersionId": "forge-10.13.4.1614",
+    "javaArgs": "-Xmx11680m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/pascal/Documents/curseforge/minecraft/Install/libraries\"",
+    "type": "custom",
+    "created": "2024-05-12T22:46:12.1270897Z",
+    "lastUsed": "2024-05-12T22:46:12.1271036Z"
+  }
+},
+{
+  "timestamp": "2024-05-12T18:46:12.1290682-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Saving launcher_profiles.json"
+},
+{
+  "timestamp": "2024-05-12T18:46:12.1311835-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Writing profile to: /home/pascal/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2024-05-12T18:46:12.2355912-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Process start '/home/pascal/Documents/curseforge/minecraft/Install/minecraft-launcher' args determined: --workDir \"/home/pascal/Documents/curseforge/minecraft/Install\""
+},
+{
+  "timestamp": "2024-05-12T18:46:12.2356239-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Starting Process..."
+},
+{
+  "timestamp": "2024-05-12T18:46:13.095111-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "InstallTask 63939947-5a25-4f68-afd7-36fefd6b8f91 LaunchMinecraftTask completed"
+},
+{
+  "timestamp": "2024-05-12T18:46:17.2403371-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-05-12T18:46:18.1144052-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 874ms"
+},
+{
+  "timestamp": "2024-05-12T18:46:34.3582897-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:46:34.413007-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:48:34.5918865-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:48:34.6441819-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:48:36.7730341-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:48:36.8251647-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:48:37.9933228-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:48:38.0483009-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:48:41.3544244-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:48:41.4053348-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:48:46.703266-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:48:46.7593987-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:48:53.2332577-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:48:53.2912489-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:49:04.7417221-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:49:04.7923468-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:49:17.8089378-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:49:17.8613054-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:49:37.4733044-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:49:37.5268927-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:50:06.6997935-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:50:06.7501877-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:50:49.5697439-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:50:49.6218067-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:51:54.7265948-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:51:54.7804193-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:53:28.4598744-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:53:28.5173866-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:55:28.5909319-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:55:28.6438595-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:55:29.3831716-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:55:29.4545656-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:55:30.160023-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:55:30.2142898-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:55:34.1170142-04:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:55:34.167222-04:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:55:40.7197906-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:55:40.7449964-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:55:46.5762762-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:55:46.6295574-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:55:56.4599264-04:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:55:56.5094897-04:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:56:10.4565658-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:56:10.5146983-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:56:30.5730609-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:56:30.624468-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:57:00.7334313-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:57:00.788358-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:57:42.5764007-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:57:42.6292564-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T18:58:46.573059-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T18:58:46.6299099-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:00:21.4633939-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:00:21.5159898-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:02:21.5728401-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:02:21.623194-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:02:22.9338516-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:02:22.9871153-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:02:25.3204589-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:02:25.3741621-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:02:28.7420207-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:02:28.7953883-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:02:32.4735065-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:02:32.5239509-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:02:39.4659292-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:02:39.580813-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:02:49.9244954-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:02:49.9505495-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:03:04.7338148-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:03:04.7941642-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:03:23.4642117-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:03:23.5166768-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:03:52.68771-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:03:52.7415269-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:04:35.4807959-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:04:35.5315316-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:05:39.4606139-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:05:39.516353-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:07:15.7403005-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:07:15.7913012-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:09:14.5710699-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:09:14.6295898-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:09:15.4972613-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:09:15.5505207-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:09:16.3877024-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:09:16.4138137-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:09:20.2440501-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:09:20.2990342-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:09:25.4643499-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:09:25.5180491-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:09:33.7410573-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:09:33.7985704-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:09:42.5943311-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:09:42.6202302-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:09:56.4675125-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:09:56.5209272-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:10:16.3436815-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:10:16.3960649-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:10:45.4638004-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:10:45.518838-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:11:29.7336698-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:11:29.7872329-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:12:32.7000482-04:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:12:32.7525979-04:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:14:07.4549186-04:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:14:07.5112948-04:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:16:07.5819372-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:16:07.6372071-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:16:08.4895726-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:16:08.5403716-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:16:09.3774944-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:16:09.4308227-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:16:14.7236053-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:16:14.7781008-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:16:18.4620158-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:16:18.5166795-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:16:25.5743406-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:16:25.6240821-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:16:35.4625381-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:16:35.5125151-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:16:49.4680835-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:16:49.5202639-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:17:10.722437-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:17:10.7742907-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:17:38.3471795-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:17:38.4019174-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:18:21.3572101-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:18:21.4142179-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:19:25.5705082-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:19:25.6231451-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:21:00.4637523-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:21:00.5126486-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:23:00.589736-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:23:00.6411492-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:23:02.7960941-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:23:02.8492636-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:23:03.9008741-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:23:03.9506598-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:23:07.2409506-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:23:07.2919096-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:23:12.2336694-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:23:12.2899591-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:23:19.3531218-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:23:19.3790888-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:23:30.7239765-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:23:30.7499918-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:23:43.5708565-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:23:43.6278322-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:24:03.3430781-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:24:03.395114-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:24:32.4570361-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:24:32.5074487-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:25:15.3547048-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:25:15.4091431-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:26:20.7412803-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:26:20.7938135-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:27:54.3538335-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:27:54.4075819-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:29:54.5856543-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:29:54.6362864-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:29:55.7341331-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:29:55.7906416-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:29:56.8442362-04:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:29:56.8954251-04:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:30:00.4707784-04:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:30:00.5258419-04:00",
+  "level": "Info",
+  "thread": 52,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:30:06.7271623-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:30:06.7799131-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:30:12.6871035-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:30:12.7373341-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:30:23.1528779-04:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:30:23.1797178-04:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:30:36.6843041-04:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:30:36.7376556-04:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:30:56.687383-04:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:30:56.7394142-04:00",
+  "level": "Info",
+  "thread": 54,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:31:26.7271203-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:31:26.7867101-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:32:08.5764763-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:32:08.6256839-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:33:12.339687-04:00",
+  "level": "Info",
+  "thread": 55,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:33:12.3893561-04:00",
+  "level": "Info",
+  "thread": 55,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:34:47.587252-04:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:34:47.6379011-04:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:36:47.5754429-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:36:47.6356895-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:36:48.3699343-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:36:48.4246286-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:36:50.744113-04:00",
+  "level": "Info",
+  "thread": 59,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:36:50.7988686-04:00",
+  "level": "Info",
+  "thread": 59,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:36:54.7201659-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:36:54.7774621-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:36:58.4536112-04:00",
+  "level": "Info",
+  "thread": 59,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:36:58.5117497-04:00",
+  "level": "Info",
+  "thread": 59,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:37:05.6811282-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:37:05.7341475-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:37:15.3436009-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:37:15.394493-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:37:30.7336627-04:00",
+  "level": "Info",
+  "thread": 59,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:37:30.759729-04:00",
+  "level": "Info",
+  "thread": 59,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:37:49.5739409-04:00",
+  "level": "Info",
+  "thread": 58,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:37:49.6280606-04:00",
+  "level": "Info",
+  "thread": 58,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:38:18.4543177-04:00",
+  "level": "Info",
+  "thread": 59,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:38:18.528598-04:00",
+  "level": "Info",
+  "thread": 59,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:39:01.5708195-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:39:01.6213182-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:40:05.4608942-04:00",
+  "level": "Info",
+  "thread": 59,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:40:05.5146481-04:00",
+  "level": "Info",
+  "thread": 59,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:41:41.7343418-04:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:41:41.7906454-04:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:43:40.5717142-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:43:40.6249305-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:43:41.4443827-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:43:41.499608-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:43:42.1374149-04:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:43:42.1896346-04:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:43:46.047453-04:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:43:46.1025631-04:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:43:51.2649097-04:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:43:51.3153675-04:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:43:59.7243458-04:00",
+  "level": "Info",
+  "thread": 63,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:43:59.7797857-04:00",
+  "level": "Info",
+  "thread": 63,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:44:08.6879097-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:44:08.7416101-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:44:22.3544135-04:00",
+  "level": "Info",
+  "thread": 62,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:44:22.4069317-04:00",
+  "level": "Info",
+  "thread": 62,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:44:42.6878704-04:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:44:42.7477795-04:00",
+  "level": "Info",
+  "thread": 60,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:45:11.9205761-04:00",
+  "level": "Info",
+  "thread": 62,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:45:11.9466543-04:00",
+  "level": "Info",
+  "thread": 62,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:45:55.728712-04:00",
+  "level": "Info",
+  "thread": 64,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:45:55.7844552-04:00",
+  "level": "Info",
+  "thread": 64,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:46:08.855011-04:00",
+  "level": "Info",
+  "thread": 64,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-05-12T19:46:08.8668556-04:00",
+  "level": "Info",
+  "thread": 64,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-05-12T19:46:09.057822-04:00",
+  "level": "Info",
+  "thread": 65,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-05-12T19:46:58.6087078-04:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:46:58.6599277-04:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:48:33.9210561-04:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:48:33.9978964-04:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:50:33.583211-04:00",
+  "level": "Info",
+  "thread": 64,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:50:33.6375819-04:00",
+  "level": "Info",
+  "thread": 64,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:50:34.4176294-04:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:50:34.4698642-04:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:50:35.190205-04:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:50:35.2421686-04:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:50:40.7237639-04:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:50:40.7758937-04:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:50:44.3515471-04:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:50:44.4109828-04:00",
+  "level": "Info",
+  "thread": 69,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:50:51.3575771-04:00",
+  "level": "Info",
+  "thread": 64,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:50:51.4092529-04:00",
+  "level": "Info",
+  "thread": 64,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:51:01.5703472-04:00",
+  "level": "Info",
+  "thread": 68,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:51:01.6245266-04:00",
+  "level": "Info",
+  "thread": 68,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:51:15.5808982-04:00",
+  "level": "Info",
+  "thread": 68,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:51:15.6353292-04:00",
+  "level": "Info",
+  "thread": 68,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:51:36.7407652-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:51:36.7965541-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:52:04.2344827-04:00",
+  "level": "Info",
+  "thread": 68,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:52:04.2881152-04:00",
+  "level": "Info",
+  "thread": 68,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:52:47.3574347-04:00",
+  "level": "Info",
+  "thread": 74,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:52:47.4078708-04:00",
+  "level": "Info",
+  "thread": 74,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:53:51.4547642-04:00",
+  "level": "Info",
+  "thread": 70,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:53:51.5087324-04:00",
+  "level": "Info",
+  "thread": 70,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:55:26.4650974-04:00",
+  "level": "Info",
+  "thread": 68,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:55:26.5812594-04:00",
+  "level": "Info",
+  "thread": 68,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:57:26.5724335-04:00",
+  "level": "Info",
+  "thread": 77,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:57:26.628187-04:00",
+  "level": "Info",
+  "thread": 77,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:57:28.7508507-04:00",
+  "level": "Info",
+  "thread": 77,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:57:28.8055371-04:00",
+  "level": "Info",
+  "thread": 77,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:57:29.9750527-04:00",
+  "level": "Info",
+  "thread": 75,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:57:30.0245968-04:00",
+  "level": "Info",
+  "thread": 75,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:57:33.3508473-04:00",
+  "level": "Info",
+  "thread": 75,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:57:33.4004951-04:00",
+  "level": "Info",
+  "thread": 75,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:57:38.6842748-04:00",
+  "level": "Info",
+  "thread": 77,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:57:38.7405995-04:00",
+  "level": "Info",
+  "thread": 77,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:57:45.5822564-04:00",
+  "level": "Info",
+  "thread": 75,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:57:45.6348856-04:00",
+  "level": "Info",
+  "thread": 75,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:57:56.3019755-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:57:56.3558042-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:58:09.4081748-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:58:09.4613546-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:58:29.5713497-04:00",
+  "level": "Info",
+  "thread": 77,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:58:29.6234696-04:00",
+  "level": "Info",
+  "thread": 77,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:58:58.8056436-04:00",
+  "level": "Info",
+  "thread": 77,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:58:58.8594391-04:00",
+  "level": "Info",
+  "thread": 77,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T19:59:41.5952678-04:00",
+  "level": "Info",
+  "thread": 79,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T19:59:41.6455864-04:00",
+  "level": "Info",
+  "thread": 79,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:00:46.7208547-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:00:46.7765155-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:02:20.6870253-04:00",
+  "level": "Info",
+  "thread": 83,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:02:20.7431772-04:00",
+  "level": "Info",
+  "thread": 83,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:04:20.5761754-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:04:20.6256514-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:04:21.7182039-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:04:21.7442269-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:04:22.8296488-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:04:22.8873124-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:04:26.461853-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:04:26.5128058-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:04:32.7209454-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:04:32.7746792-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:04:38.6987516-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:04:38.7547357-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:04:48.6846327-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:04:48.7357422-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:05:02.6889841-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:05:02.7454022-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:05:22.8013437-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:05:22.8523266-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:05:52.7334625-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:05:52.7885927-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:06:34.5706434-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:06:34.6243239-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:07:38.8022568-04:00",
+  "level": "Info",
+  "thread": 84,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:07:38.8568225-04:00",
+  "level": "Info",
+  "thread": 84,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:09:13.570759-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:09:13.6391209-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:11:13.5702022-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:11:13.6285502-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:11:14.7408542-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:11:14.7939171-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:11:16.7022342-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:11:16.7541747-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:11:20.2700972-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:11:20.3209969-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:11:25.4614749-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:11:25.5128111-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:11:32.5876601-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:11:32.6581388-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:11:42.6920157-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:11:42.7425994-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:11:57.720794-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:11:57.7731315-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:12:16.5925733-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:12:16.6436215-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:12:45.8017264-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:12:45.8569383-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:13:28.5873363-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:13:28.6463095-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:14:32.6971868-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:14:32.7529785-04:00",
+  "level": "Info",
+  "thread": 85,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:16:08.7210205-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:16:08.776916-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:18:07.5828377-04:00",
+  "level": "Info",
+  "thread": 87,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:18:07.6343404-04:00",
+  "level": "Info",
+  "thread": 87,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:18:08.7476768-04:00",
+  "level": "Info",
+  "thread": 87,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:18:08.8007592-04:00",
+  "level": "Info",
+  "thread": 87,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:18:09.8641538-04:00",
+  "level": "Info",
+  "thread": 87,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:18:09.9185122-04:00",
+  "level": "Info",
+  "thread": 87,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:18:13.4710543-04:00",
+  "level": "Info",
+  "thread": 87,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:18:13.5244791-04:00",
+  "level": "Info",
+  "thread": 87,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:18:18.6843125-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:18:18.7391519-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:18:26.7228129-04:00",
+  "level": "Info",
+  "thread": 87,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:18:26.7735962-04:00",
+  "level": "Info",
+  "thread": 87,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:18:35.7948782-04:00",
+  "level": "Info",
+  "thread": 87,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:18:35.8483307-04:00",
+  "level": "Info",
+  "thread": 87,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:18:49.6273173-04:00",
+  "level": "Info",
+  "thread": 87,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:18:49.6771826-04:00",
+  "level": "Info",
+  "thread": 87,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:19:10.0506969-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:19:10.1070224-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:19:38.4315643-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:19:38.4830639-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:20:22.7351082-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:20:22.7871171-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:21:25.6811064-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:21:25.7317465-04:00",
+  "level": "Info",
+  "thread": 81,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:23:00.5747899-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:23:00.6264303-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:25:00.577673-04:00",
+  "level": "Info",
+  "thread": 84,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:25:00.6287884-04:00",
+  "level": "Info",
+  "thread": 84,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:25:01.6068547-04:00",
+  "level": "Info",
+  "thread": 84,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:25:01.6616106-04:00",
+  "level": "Info",
+  "thread": 84,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:25:02.6114706-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:25:02.6669156-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:25:07.7219939-04:00",
+  "level": "Info",
+  "thread": 84,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:25:07.7787627-04:00",
+  "level": "Info",
+  "thread": 84,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:25:11.9141706-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:25:11.9705242-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:25:18.7939037-04:00",
+  "level": "Info",
+  "thread": 84,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:25:18.8456044-04:00",
+  "level": "Info",
+  "thread": 84,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:25:28.6849344-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:25:28.7403825-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:25:43.0286135-04:00",
+  "level": "Info",
+  "thread": 83,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:25:43.0818261-04:00",
+  "level": "Info",
+  "thread": 83,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:26:03.724296-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:26:03.7752641-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:26:31.694467-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:26:31.7498375-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:27:14.5711927-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:27:14.6272136-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:28:18.7944065-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:28:18.8468398-04:00",
+  "level": "Info",
+  "thread": 88,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:29:53.8051658-04:00",
+  "level": "Info",
+  "thread": 83,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:29:53.8564478-04:00",
+  "level": "Info",
+  "thread": 83,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:31:53.5791111-04:00",
+  "level": "Info",
+  "thread": 80,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:31:53.6294937-04:00",
+  "level": "Info",
+  "thread": 80,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:31:55.8017116-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:31:55.8574994-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:31:57.0240454-04:00",
+  "level": "Info",
+  "thread": 80,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:31:57.0761875-04:00",
+  "level": "Info",
+  "thread": 80,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:32:00.3575303-04:00",
+  "level": "Info",
+  "thread": 80,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:32:00.4135522-04:00",
+  "level": "Info",
+  "thread": 80,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:32:05.6973916-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:32:05.7483428-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:32:12.8070136-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:32:12.848335-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:32:23.7214098-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:32:23.772912-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:32:36.6848466-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:32:36.7116331-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:32:56.5710394-04:00",
+  "level": "Info",
+  "thread": 80,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:32:56.623716-04:00",
+  "level": "Info",
+  "thread": 80,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:33:25.7017737-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:33:25.7602478-04:00",
+  "level": "Info",
+  "thread": 82,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:34:08.8042764-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:34:08.8623252-04:00",
+  "level": "Info",
+  "thread": 86,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:35:13.7244839-04:00",
+  "level": "Info",
+  "thread": 79,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:35:13.7769366-04:00",
+  "level": "Info",
+  "thread": 79,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:36:47.5750568-04:00",
+  "level": "Info",
+  "thread": 79,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:36:47.6260171-04:00",
+  "level": "Info",
+  "thread": 79,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:38:47.5736837-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:38:47.6241285-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:38:48.7515963-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:38:48.7776935-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:38:49.8613908-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:38:49.8895145-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:38:53.467279-04:00",
+  "level": "Info",
+  "thread": 74,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:38:53.5205029-04:00",
+  "level": "Info",
+  "thread": 74,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:38:59.7275687-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:38:59.7770415-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:39:05.6947109-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:39:05.7454331-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:39:15.6877684-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:39:15.7438651-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:39:29.5761468-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:39:29.6335413-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:39:49.5707501-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:39:49.6338444-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:40:19.7243672-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:40:19.7759454-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:41:02.0310297-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:41:02.0866857-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:42:05.6903919-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:42:05.7443656-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:43:40.5741399-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:43:40.6309794-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:45:40.571348-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:45:40.6338848-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:45:41.7277164-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:45:41.7547611-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:45:44.1024417-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:45:44.1550452-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:45:47.7345347-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:45:47.7899064-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:45:51.8109837-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:45:51.8659078-04:00",
+  "level": "Info",
+  "thread": 72,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:45:58.570409-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:45:58.623965-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:46:08.8006598-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:46:08.8533857-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:46:08.9940037-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-05-12T20:46:08.9941909-04:00",
+  "level": "Info",
+  "thread": 76,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-05-12T20:46:09.1426365-04:00",
+  "level": "Info",
+  "thread": 74,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-05-12T20:46:23.7244253-04:00",
+  "level": "Info",
+  "thread": 70,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:46:23.7756843-04:00",
+  "level": "Info",
+  "thread": 70,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:46:42.5835356-04:00",
+  "level": "Info",
+  "thread": 70,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:46:42.6408368-04:00",
+  "level": "Info",
+  "thread": 70,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:47:11.6940263-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:47:11.748562-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:47:54.5706605-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:47:54.6219857-04:00",
+  "level": "Info",
+  "thread": 78,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:48:58.6844174-04:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:48:58.7600845-04:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:50:34.7209336-04:00",
+  "level": "Info",
+  "thread": 70,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:50:34.7752803-04:00",
+  "level": "Info",
+  "thread": 70,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:52:33.5743401-04:00",
+  "level": "Info",
+  "thread": 67,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:52:33.6251955-04:00",
+  "level": "Info",
+  "thread": 67,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:52:34.6326017-04:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:52:34.6860899-04:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:52:35.6276604-04:00",
+  "level": "Info",
+  "thread": 67,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:52:35.6785289-04:00",
+  "level": "Info",
+  "thread": 67,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:52:39.350861-04:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:52:39.4042925-04:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:52:44.5752064-04:00",
+  "level": "Info",
+  "thread": 65,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:52:44.6265025-04:00",
+  "level": "Info",
+  "thread": 65,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:52:52.7243292-04:00",
+  "level": "Info",
+  "thread": 70,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:52:52.7811319-04:00",
+  "level": "Info",
+  "thread": 70,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:53:01.6946466-04:00",
+  "level": "Info",
+  "thread": 67,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:53:01.7482394-04:00",
+  "level": "Info",
+  "thread": 67,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:53:15.6940731-04:00",
+  "level": "Info",
+  "thread": 65,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:53:15.7475444-04:00",
+  "level": "Info",
+  "thread": 65,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:53:35.5706507-04:00",
+  "level": "Info",
+  "thread": 65,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:53:35.6258191-04:00",
+  "level": "Info",
+  "thread": 65,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:54:04.5705109-04:00",
+  "level": "Info",
+  "thread": 70,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:54:04.6283413-04:00",
+  "level": "Info",
+  "thread": 70,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:54:48.7418306-04:00",
+  "level": "Info",
+  "thread": 67,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:54:48.801921-04:00",
+  "level": "Info",
+  "thread": 67,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:55:51.594071-04:00",
+  "level": "Info",
+  "thread": 64,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:55:51.6474613-04:00",
+  "level": "Info",
+  "thread": 64,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:57:26.5703049-04:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:57:26.6312445-04:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:59:26.5842258-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:59:26.6383024-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:59:27.6282355-04:00",
+  "level": "Info",
+  "thread": 56,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:59:27.6821861-04:00",
+  "level": "Info",
+  "thread": 56,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:59:28.6251081-04:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:59:28.6761875-04:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:59:33.7436328-04:00",
+  "level": "Info",
+  "thread": 56,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:59:33.8107738-04:00",
+  "level": "Info",
+  "thread": 56,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:59:37.6768834-04:00",
+  "level": "Info",
+  "thread": 56,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:59:37.7358526-04:00",
+  "level": "Info",
+  "thread": 56,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:59:44.5804656-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:59:44.6311948-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T20:59:54.5703691-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T20:59:54.5972056-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:00:08.5805145-04:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:00:08.6523683-04:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:00:29.7426563-04:00",
+  "level": "Info",
+  "thread": 61,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:00:29.7984608-04:00",
+  "level": "Info",
+  "thread": 61,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:00:57.5708201-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:00:57.630159-04:00",
+  "level": "Info",
+  "thread": 57,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:01:40.5707247-04:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:01:40.626911-04:00",
+  "level": "Info",
+  "thread": 66,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:02:44.5743516-04:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:02:44.6291997-04:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:04:19.5808206-04:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:04:19.6342094-04:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:06:19.572869-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:06:19.623501-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:06:21.7740176-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:06:21.8320918-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:06:23.0001707-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:06:23.0526688-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:06:26.3574894-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:06:26.4123122-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:06:31.5697776-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:06:31.6260499-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:06:38.5706709-04:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:06:38.6219973-04:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:06:49.7237241-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:06:49.7781194-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:07:02.5807927-04:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:07:02.6388404-04:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:07:22.6946189-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:07:22.7468731-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:07:51.5762621-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:07:51.6269518-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:08:34.5842398-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:08:34.6402279-04:00",
+  "level": "Info",
+  "thread": 49,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:09:39.6924357-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:09:39.7479553-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:11:13.2341898-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:11:13.2885571-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:13:13.5761044-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:13:13.6267935-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:13:14.4437715-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:13:14.4970828-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:13:15.1443471-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:13:15.1999307-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:13:19.0511871-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:13:19.1008002-04:00",
+  "level": "Info",
+  "thread": 48,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:13:25.3006368-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:13:25.353883-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:13:31.4602149-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:13:31.5168089-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:13:41.1178681-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:13:41.1778067-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:13:55.3408853-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:13:55.3969772-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:14:15.2302032-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:14:15.2814342-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:14:45.6674819-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:14:45.7222248-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:15:27.2378195-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:15:27.2935458-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:16:31.4875876-04:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:16:31.5470497-04:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:18:06.3542439-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:18:06.4083251-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:20:06.5869444-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:20:06.6377739-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:20:07.301379-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:20:07.3273694-04:00",
+  "level": "Info",
+  "thread": 39,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:20:09.6730774-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:20:09.7277536-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:20:13.6568148-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:20:13.7098923-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:20:17.2614011-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:20:17.3144618-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:20:24.2282568-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:20:24.2541827-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:20:34.4607432-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:20:34.5190792-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:20:49.723362-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:20:49.7775924-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:21:08.2371488-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:21:08.2959541-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:21:37.6939489-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:21:37.752117-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:22:20.2438997-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:22:20.2944019-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:23:24.350347-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:23:24.4028021-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:25:00.7296509-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:25:00.7865636-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:26:59.5702345-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:26:59.6247638-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:27:00.3944047-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:27:00.4454954-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:27:01.0438031-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:27:01.0946147-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:27:04.9310663-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:27:04.9888027-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:27:10.1609668-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:27:10.2480782-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:27:18.3143455-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:27:18.3683321-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:27:27.2544576-04:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:27:27.3070491-04:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:27:41.4574926-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:27:41.5125381-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:28:01.2608698-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:28:01.3147697-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:28:30.3443757-04:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:28:30.4017672-04:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:29:14.6609385-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:29:14.7163277-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:30:17.3510546-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:30:17.4125723-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:31:52.2436814-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:31:52.3007494-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:33:52.5824131-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:33:52.6385291-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:33:53.37454-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:33:53.4258451-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:33:54.1455937-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:33:54.2011269-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:33:59.7364933-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:33:59.787862-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:34:03.2306679-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:34:03.2851624-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:34:10.3438864-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:34:10.399545-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:34:20.3406854-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:34:20.393132-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:34:34.3550604-04:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:34:34.3813086-04:00",
+  "level": "Info",
+  "thread": 37,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:34:55.728395-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:34:55.7810705-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:35:23.3437858-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:35:23.3943416-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:36:06.2472533-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:36:06.2997157-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:37:10.2322843-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:37:10.2840073-04:00",
+  "level": "Info",
+  "thread": 36,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:38:45.2308828-04:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:38:45.2905757-04:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:40:45.5768589-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:40:45.6345745-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:40:47.750415-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:40:47.8037118-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:40:48.6310923-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:40:48.6819128-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:40:52.0075425-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:40:52.0611833-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:40:57.4573644-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:40:57.5100054-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:41:04.5742623-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:41:04.6238117-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:41:15.7230293-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:41:15.7501881-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:41:28.3505766-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:41:28.376904-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:41:48.2430232-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:41:48.2976168-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:42:17.3433377-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:42:17.395364-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:43:00.3539732-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:43:00.4107735-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:44:05.734534-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:44:05.7846902-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:45:39.3479946-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:45:39.3998444-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:46:09.96625-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-05-12T21:46:09.9668357-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-05-12T21:46:10.1435745-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[ModLoaderDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "32.00"
+  }
+},
+{
+  "timestamp": "2024-05-12T21:46:10.1519222-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-05-12T21:47:39.57706-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:47:39.6325508-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:47:40.5444823-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:47:40.5952647-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:47:41.4269127-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:47:41.4805347-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:47:45.2300058-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:47:45.2829808-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:47:51.7510378-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:47:51.8029059-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:47:57.3454453-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:47:57.3993677-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:48:07.3443605-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:48:07.3960135-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:48:21.3448481-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:48:21.4001529-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:48:41.4564134-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:48:41.5132189-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:49:11.7234114-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:49:11.7796899-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:49:53.2308586-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:49:53.2855469-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:50:57.2397487-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:50:57.2907222-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:52:32.6841227-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:52:32.7365492-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:54:32.5874972-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:54:32.6408203-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:54:33.7200787-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:54:33.7789978-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:54:36.0599811-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:54:36.1142112-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:54:39.3125952-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:54:39.3391285-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:54:43.2602834-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:54:43.3124768-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:54:50.150521-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:54:50.2043558-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:55:00.3142666-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:55:00.3701845-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:55:15.7202563-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:55:15.7840168-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:55:34.5271387-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:55:34.5874725-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:56:03.4643118-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:56:03.5187952-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:56:46.1873942-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:56:46.2381505-04:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:57:50.5739667-04:00",
+  "level": "Info",
+  "thread": 91,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:57:50.6335976-04:00",
+  "level": "Info",
+  "thread": 91,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T21:59:26.6679396-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T21:59:26.7189817-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:01:25.5741082-04:00",
+  "level": "Info",
+  "thread": 91,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:01:25.627777-04:00",
+  "level": "Info",
+  "thread": 91,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:01:26.7305012-04:00",
+  "level": "Info",
+  "thread": 91,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:01:26.7818037-04:00",
+  "level": "Info",
+  "thread": 91,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:01:27.7264333-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:01:27.7809449-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:01:31.2847814-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:01:31.340091-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:01:36.2601937-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:01:36.3132906-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:01:44.3036541-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:01:44.3603276-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:01:53.1915286-04:00",
+  "level": "Info",
+  "thread": 89,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:01:53.2455389-04:00",
+  "level": "Info",
+  "thread": 89,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:02:07.4591538-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:02:07.5129295-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:02:27.1963433-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:02:27.2470266-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:02:56.4605118-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:02:56.5123665-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:03:40.704851-04:00",
+  "level": "Info",
+  "thread": 91,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:03:40.730867-04:00",
+  "level": "Info",
+  "thread": 91,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:04:43.3506165-04:00",
+  "level": "Info",
+  "thread": 89,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:04:43.4372169-04:00",
+  "level": "Info",
+  "thread": 89,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:06:18.2031886-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:06:18.2710227-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:08:18.5835607-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:08:18.6386014-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:08:19.2638208-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:08:19.3243619-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:08:19.8629405-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:08:19.915248-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:08:25.3009378-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:08:25.3542118-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:08:29.4894601-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:08:29.5388346-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:08:36.2834659-04:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:08:36.3390685-04:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:08:46.1833704-04:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:08:46.2465755-04:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:09:00.2315085-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:09:00.2843009-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:09:21.7105329-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:09:21.7620432-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:09:49.2281047-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:09:49.2899853-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:10:32.1604967-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:10:32.2163062-04:00",
+  "level": "Info",
+  "thread": 90,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:11:36.3406092-04:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:11:36.3946025-04:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:13:11.5068722-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:13:11.5606148-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:15:11.5870949-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:15:11.6398423-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:15:13.783778-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:15:13.83714-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:15:14.9200662-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:15:14.9786918-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:15:18.2633642-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:15:18.3138012-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:15:23.2634675-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:15:23.3169194-04:00",
+  "level": "Info",
+  "thread": 93,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:15:30.2591407-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:15:30.316885-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:15:41.7167184-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:15:41.7902467-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:15:54.3403802-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:15:54.3974914-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:16:14.2839052-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:16:14.3369151-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:16:43.5702276-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:16:43.6269234-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:17:26.4532723-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:17:26.5065047-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:18:31.7235435-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:18:31.7819512-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:20:05.2006343-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:20:05.2547619-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:22:05.5870801-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:22:05.6383558-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:22:07.2207943-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:22:07.2729152-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:22:08.8074254-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:22:08.8612727-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:22:12.4595918-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:22:12.5129685-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:22:18.7284107-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:22:18.7983336-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:22:24.1506322-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:22:24.2096447-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:22:34.4067978-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:22:34.4610959-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:22:48.3399639-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:22:48.393896-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:23:08.5705202-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:23:08.621675-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:23:38.719997-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:23:38.7734281-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:24:20.2358061-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:24:20.2914956-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:25:24.2401595-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:25:24.2914613-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:26:59.1853741-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:26:59.2363173-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:28:59.5832534-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:28:59.6369264-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:29:00.6313169-04:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:29:00.6849378-04:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:29:02.9998286-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:29:03.052701-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:29:06.2992811-04:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:29:06.3549885-04:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:29:10.2592301-04:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:29:10.312896-04:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:29:17.4534325-04:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:29:17.5041035-04:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:29:27.2834635-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:29:27.3379617-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:29:42.720229-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:29:42.77349-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:30:01.1101469-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:30:01.1653257-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:30:30.4547286-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:30:30.5088237-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:31:14.2610235-04:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:31:14.3185686-04:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:32:17.4572134-04:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:32:17.5154183-04:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:33:53.7205332-04:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:33:53.7797077-04:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:35:52.5794672-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:35:52.6359321-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:35:53.4007123-04:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:35:53.4557801-04:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:35:54.143406-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:35:54.1997164-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:35:58.0400639-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:35:58.0903241-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:36:03.1500494-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:36:03.2066157-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:36:11.3003577-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:36:11.3570661-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:36:20.1336516-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:36:20.1889206-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:36:34.2282884-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:36:34.2842934-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:36:54.1104287-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:36:54.1372906-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:37:23.4729361-04:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:37:23.5272328-04:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:38:07.6856126-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:38:07.7376157-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:39:10.460302-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:39:10.5182704-04:00",
+  "level": "Info",
+  "thread": 38,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:40:45.1643014-04:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:40:45.2201021-04:00",
+  "level": "Info",
+  "thread": 35,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:42:45.5921669-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:42:45.6483132-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:42:46.6108471-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:42:46.6617082-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:42:47.6056748-04:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:42:47.6783999-04:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:42:52.7211527-04:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:42:52.7770017-04:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:42:56.1261771-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:42:56.1765868-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:43:03.1538271-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:43:03.210176-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:43:13.1359462-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:43:13.191242-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:43:27.2267836-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:43:27.2848433-04:00",
+  "level": "Info",
+  "thread": 40,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:43:48.7337353-04:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:43:48.7615196-04:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:44:16.4502284-04:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:44:16.5016041-04:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:44:59.3269245-04:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:44:59.3781624-04:00",
+  "level": "Info",
+  "thread": 42,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:46:03.5662406-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:46:03.618846-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:46:09.9723208-04:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2024-05-12T22:46:09.9729826-04:00",
+  "level": "Info",
+  "thread": 43,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-05-12T22:46:11.1299326-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2024-05-12T22:47:38.2620822-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:47:38.3147793-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:49:38.5795388-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:49:38.6313192-04:00",
+  "level": "Info",
+  "thread": 45,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:49:40.7501083-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:49:40.8032335-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:49:41.7868-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:49:41.837914-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:49:45.1581825-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:49:45.212758-04:00",
+  "level": "Info",
+  "thread": 44,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:49:50.3707279-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:49:50.4258712-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:49:57.1502201-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:49:57.1767904-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:50:08.6926957-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:50:08.7503445-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:50:21.3467291-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:50:21.4009509-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:50:41.1436117-04:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:50:41.2000083-04:00",
+  "level": "Info",
+  "thread": 50,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:51:10.6927099-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:51:10.7482174-04:00",
+  "level": "Info",
+  "thread": 46,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:51:53.3416365-04:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:51:53.398263-04:00",
+  "level": "Info",
+  "thread": 53,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:52:58.7139281-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:52:58.7700256-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-05-12T22:54:32.1504342-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-05-12T22:54:32.2013853-04:00",
+  "level": "Info",
+  "thread": 51,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+}
+]}
