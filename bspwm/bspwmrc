@@ -21,3 +21,13 @@ xrandr --output DP-2 --mode 2560x1440 --rate 144 --right-of DP-4 --output DP-4 -
 
 polybar &
 picom --config ~/.config/picom/picom.conf&
+
+##WALL PAPERS
+WALLPAPER_DIR="$HOME/.local/share/wallpapers"
+
+# Get a random wallpaper from the directory
+WALLPAPER1=$(find "$WALLPAPER_DIR" -type f | shuf -n 1)
+WALLPAPER2=$(find "$WALLPAPER_DIR" -type f | shuf -n 1)
+
+# Set the wallpapers using feh
+feh --bg-scale "$WALLPAPER1" --bg-scale "$WALLPAPER2"
